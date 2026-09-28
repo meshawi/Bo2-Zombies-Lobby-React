@@ -1,0 +1,28 @@
+:root {
+  --font-display: 'Teko', 'Bank Gothic', 'Impact', 'Arial Narrow', sans-serif;
+  --font-body: 'Oswald', 'Arial Narrow', 'Helvetica Neue', sans-serif;
+  --orange: #f0a030;
+  --ember: #ff6a1a;
+  --lava: #ff3b0a;
+  --bone: #e8e2d4;
+  --muted: #8f8a80;
+  --panel: rgba(8, 7, 6, 0.72);
+  --panel-edge: rgba(255, 160, 60, 0.28);
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #000;
+  color: var(--bone);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+button { font: inherit; color: inherit; }
+
+::selection { background: rgba(240, 160, 48, 0.35); }
